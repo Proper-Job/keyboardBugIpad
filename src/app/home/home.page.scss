@@ -1,27 +1,19 @@
-#container {
+input {
+  border-top: 1px solid #cdcdcd;
+  border-bottom: 1px solid #cdcdcd;
+  padding: 0;
+  height: 40px;
   text-align: center;
+  font-size: 14px;
+  border: none;
+  border-top: 2px solid var(--ion-color-primary);
+  border-bottom: 2px solid var(--ion-color-primary);
+  outline: none !important;
+  color: #333333;
+  transition: color 0.2s;
+  width: 100%;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+  &.disabled {
+    opacity: 0.5 !important;
+  }
 }

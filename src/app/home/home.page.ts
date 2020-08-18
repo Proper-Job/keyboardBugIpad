@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  public quantity = 1;
   constructor() {}
 
 }
