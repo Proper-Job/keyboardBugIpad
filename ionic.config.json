@@ -1,0 +1,7 @@
+{
+  "name": "keyboardBugIpad",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
